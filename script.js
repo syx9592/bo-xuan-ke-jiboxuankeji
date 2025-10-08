@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const shareButton = document.querySelector('.btn-share');
     shareButton.addEventListener('click', () => {
-        const url = window.location.origin + window.location.pathname;
+        const url = 'https://syx9592.github.io/bo-xuan-ke-jiboxuankeji/';
         navigator.clipboard.writeText(url).then(() => {
             alert('链接已复制到剪贴板！');
         }, () => {
